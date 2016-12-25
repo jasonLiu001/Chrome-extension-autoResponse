@@ -1,0 +1,23 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "ReRes"
+   },
+   "description": "Change the response of the request. ReRes可以用来更改页面请求响应的内容。通过指定规则，您可以把请求映射到其他的url，也可以映射到本机的文件或者目录。ReRes支持单个url映射，也支持目录映射。",
+   "icons": {
+      "16": "icon.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAivgEBg4ZqmvelaW5dmUSNhg5nWunIX8KagGIyPlvKf1sVzdKras0TDdMReAzHjKA6cvw8bjGnQ0jhpte1nDwbSG8xV3uaKIwk9U5Hjh5/hwGyMJR07O62BNAZz2FqkLycSgUYxGi7Qcv1xsWNGea9NcQ8bqZFFHg/SKAAzbjKp6PKjD5M26TOePyeEH57GJd28f+jb9PzN99/YjachjsTtnJl11eo6e+vbQl0FR9qwZGpMScPnEZL9QrV+NfcvqF/Rv5eKw2luCclmwtHFcfltnmi/AybUet3vH9MVRCcm4bgPIZFHJl7zVCj0R7KwsErZ/hU6uV8KlpVA32HSSPmwIDAQAB",
+   "manifest_version": 2,
+   "name": "ReRes",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "webRequest", "webRequestBlocking", "\u003Call_urls>", "unlimitedStorage" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.8.1"
+}
